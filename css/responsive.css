@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+    .landing-text{
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .about-container{
+        flex-direction: column;
+    }
+    .container{
+        padding: 2px;
+        flex-direction: column;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-image{
+        background-image: url(/images/just.jpg);
+        width: 200px;
+    }
+    .section-counter{
+        display: flex;
+        flex-direction: column;
+    }
+    .subscribe{
+        margin: 1em;
+       
+    }
+}

@@ -1,0 +1,115 @@
+@import url();
+:root{
+    --main-background-color: gray;
+    --secondary-background-color: #a5a1a1;
+    --main-font-color: white;
+    --secondary-font-color: ;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: gray;
+    color: #fff;
+    font-family: 'Space Mono', sans-serif;  
+    overflow-x: hidden;
+    border: 3px solid white;
+}
+section{
+    min-height: 70vh;
+}
+
+#landing-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #a5a1a1;
+    min-height: 80vh;
+}
+.landing-text{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+#about{
+    text-align: justify;
+}
+.about-container{
+    display: flex;
+}
+.about-text{
+    padding: 2em;
+    width: 50%;
+
+}
+.about-image{
+    background-image: url(/images/just.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 50%;
+}
+/*Below is the code for the counter*/
+.section-text{
+    text-align: center;
+    margin: 20px 40px 0;
+}
+
+.section-counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.counter{
+    font-size: 60px;
+    margin-top: 20px;
+    color: #a5a1a1;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+}
+
+.topics{
+    text-align: justify;
+    margin: 1em;
+    padding: 2em;
+    background-color: #a5a1a1;
+    height: fit-content;
+}
+.topics h3{
+    text-align: center;
+}
+.button{
+    font-size: 18px;
+    color: white;
+    margin: 0 auto;
+    width: 100%; 
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #8c8d8c;
+}
+.botton:focus{
+    outline: 0;
+}
+.button:active{
+    transform: scale(0.98);
+}
+.subscribe{
+    margin: 2em 12em;
+    text-align: center;
+    padding: 3em;
+}
