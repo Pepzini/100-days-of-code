@@ -17,11 +17,54 @@ body{
     font-family: 'Space Mono', sans-serif;  
     overflow-x: hidden;
     border: 3px solid white;
+   overflow-x: hidden;
 }
 section{
     min-height: 70vh;
 }
 
+nav{
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+    z-index: 10;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all .3s ease-in-out;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all .3s ease-in-out;
+}
+nav.active{
+    background-color: white;
+    box-shadow: 0 2px 10px rgb(27, 27, 27);
+}
+nav.active a{
+    color: black;
+}
+nav.active .nav-container{
+    padding: 10px 0;   
+}
+nav a.active, nav a:hover{
+    color: black;
+    font-weight: bold;
+}
 #landing-page{
     display: flex;
     flex-direction: column;
@@ -29,29 +72,51 @@ section{
     align-items: center;
     border: 3px solid #a5a1a1;
     min-height: 80vh;
+   position: relative;
+}
+
+.cup-image{
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    right: 60px;
+}
+.laptop-image{
+    width: 250px;
+    position: absolute;
+    bottom: 140px;
+    left: 40px;
 }
 .landing-text{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     margin: 0;
 }
-#about{
-    text-align: justify;
+#typewrite{
+    width: 70%;
+    text-align: center;
 }
-.about-container{
+
+#about{
     display: flex;
+    text-align: justify;
+    position: relative;
 }
 .about-text{
+    position: absolute;
     padding: 2em;
     width: 50%;
-
+    left: 0;
 }
 .about-image{
-    background-image: url(/images/just.jpg);
+    position: absolute;
+    left: 50%;
+    background-image: url(../images/cloud.png);
     background-position: right;
     background-size: cover;
     width: 50%;
+    height: 100%;
 }
 /*Below is the code for the counter*/
 .section-text{
@@ -112,4 +177,12 @@ section{
     margin: 2em 12em;
     text-align: center;
     padding: 3em;
+}
+footer{
+    background-color: white;
+    color: gray;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 4px;
 }

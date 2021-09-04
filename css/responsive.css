@@ -4,19 +4,40 @@
         text-align: center;
         flex-wrap: wrap;
     }
-    .about-container{
+    
+    .cup-image{
+        margin: 0;
+        width: 150px;
+        right: 30px;
+        top: 350px;
+        
+    }
+    .laptop-image{
+        margin: 0;
+        width: 100px;
+        left: -0;
+        top: 150px;
+        right: 0;
+    }
+    #about{
         flex-direction: column;
+        height: 180vh;
+
     }
     .container{
         padding: 2px;
         flex-direction: column;
     }
+
     .about-text{
+        position: relative;
+        font-size: 15px;
         width: 100%;
     }
     .about-image{
-        background-image: url(/images/just.jpg);
-        width: 200px;
+        position: relative;
+        left: 0;
+        width: 100%;
     }
     .section-counter{
         display: flex;
@@ -26,4 +47,5 @@
         margin: 1em;
        
     }
+
 }

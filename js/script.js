@@ -1,3 +1,15 @@
+//navbar functionality
+const nav = document.querySelector('.navbar');
+window.addEventListener('scroll',activateStickyNav);
+
+function activateStickyNav(){
+    if (window.scrollY > nav.offsetHeight + 150) {
+      nav.classList.add('active')
+    }else{
+      nav.classList.remove('active');
+    }
+}
+
 //typewriter function
 var i = 0;
 var typeWritingText = 'Welcome to 100 days of HTML, CSS and Javascript.';
