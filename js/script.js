@@ -1,5 +1,5 @@
 //navbar functionality
-const nav = document.querySelector('.navbar');
+/*const nav = document.querySelector('.navbar');
 window.addEventListener('scroll',activateStickyNav);
 
 function activateStickyNav(){
@@ -46,4 +46,24 @@ counters.forEach(counter => {
     }
 
     updateCounter();
-});
+});*/
+
+const boxes = document.querySelectorAll('.animate-section');
+
+window.addEventListener('scroll', checkBoxes);
+
+checkBoxes();
+
+function checkBoxes() {
+    const triggerPoint = window.innerHeight / 5 * 4;
+
+    boxes.forEach( box =>{
+        const boxTop = box.getBoundingClientRect().top;
+
+        if (boxTop < triggerPoint) {
+            box.classList.add('show')
+        } else {
+            box.classList.remove('remove')
+        }
+    })
+}
