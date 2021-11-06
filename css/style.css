@@ -1,10 +1,21 @@
-@import url();
-:root{
-    --main-background-color: gray;
-    --secondary-background-color: #a5a1a1;
-    --main-font-color: white;
-    --secondary-font-color: ;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300&display=swap');
 
+
+:root{
+    --main-background-color: #fff;
+    --secondary-background-color: #f8f9fa;
+    --main-font-color: black;
+    --secondary-font-color: rgb(63, 60, 60);
+    --button-background-color: #2b2d30;
+    --box-shadow:
+    0 3.5px 2.9px rgba(0, 0, 0, 0.008),
+    0 8.5px 6.8px rgba(0, 0, 0, 0.012),
+    0 16px 12.9px rgba(0, 0, 0, 0.015),
+    0 28.6px 23px rgba(0, 0, 0, 0.018),
+    0 53.5px 43px rgba(0, 0, 0, 0.022),
+    0 128px 103px rgba(0, 0, 0, 0.03)
+  ;
+  
 }
 *{
     box-sizing: border-box;
@@ -12,16 +23,23 @@
 
 body{
     margin: 0;
-    background-color: gray;
-    color: #fff;
-    font-family: 'Space Mono', sans-serif;  
+    background-color: var(--main-background-color);
+    color: var(--main-font-color);
+    font-family: 'Open Sans', sans-serif;  
     overflow-x: hidden;
-    border: 3px solid white;
+    border: 3px solid dimgray;
    overflow-x: hidden;
 }
+
 section{
     min-height: 70vh;
 }
+.curved {
+    position: relative;
+    height: 50vh;
+    border-bottom-left-radius: 50% 31%;
+    border-bottom-right-radius: 50% 31%;
+  }
 
 nav{
     position: fixed;
@@ -46,7 +64,7 @@ nav ul{
     justify-content: center;
 }
 nav a{
-    color: white;
+    color: var(--secondary-font-color);
     text-decoration: none;
     padding: 7px 15px;
     transition: all .3s ease-in-out;
@@ -70,21 +88,29 @@ nav a.active, nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid #a5a1a1;
+    border-bottom: 3px solid dimgray;
     min-height: 80vh;
    position: relative;
 }
-
-.cup-image{
-    width: 250px;
+#landing-icons{
+    width: 100px;
     position: absolute;
-    top: 250px;
-    right: 60px;
 }
-.laptop-image{
-    width: 250px;
-    position: absolute;
-    bottom: 140px;
+.search-result{
+    top: 100px;
+    right: 200px;
+}
+.seo{
+    top: 100px;
+    left: 200px;
+}
+
+.code-design{
+    top: 140px;
+    right: 40px;
+}
+.strategy{
+    top: 140px;
     left: 40px;
 }
 .landing-text{
@@ -99,6 +125,7 @@ nav a.active, nav a:hover{
 }
 
 #about{
+    background-color: var(--secondary-background-color);
     display: flex;
     text-align: justify;
     position: relative;
@@ -112,9 +139,10 @@ nav a.active, nav a:hover{
 .about-image{
     position: absolute;
     left: 50%;
-    background-image: url(../images/cloud.png);
-    background-position: right;
-    background-size: cover;
+    background-image: url(../Tilda_Icons_19_Advertising/Tilda_Icons_19ad_strategy.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
     width: 50%;
     height: 100%;
 }
@@ -122,12 +150,16 @@ nav a.active, nav a:hover{
 .section-text{
     text-align: center;
     margin: 20px 40px 0;
+    
 }
 
 .section-counter{
+    background-color: var(--secondary-background-color);
     display: flex;
+    margin-bottom: 2em;
     align-items: center;
     justify-content: center;
+    border-bottom: 3px solid dimgray;
 }
 .counter-container{
     display: flex;
@@ -140,7 +172,7 @@ nav a.active, nav a:hover{
 .counter{
     font-size: 60px;
     margin-top: 20px;
-    color: #a5a1a1;
+    color: var(--secondary-font-color);
 }
 .container{
     display: flex;
@@ -148,10 +180,13 @@ nav a.active, nav a:hover{
 }
 
 .topics{
+    
     text-align: justify;
     margin: 1em;
     padding: 2em;
-    background-color: #a5a1a1;
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-font-color);
+    box-shadow: var(--box-shadow);
     height: fit-content;
 }
 .topics h3{
@@ -165,7 +200,7 @@ nav a.active, nav a:hover{
     padding: 10px;
     border: 0;
     border-radius: 5px;
-    background-color: #8c8d8c;
+    background-color: var(--button-background-color);
 }
 .botton:focus{
     outline: 0;
