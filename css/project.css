@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@250;350&display=swap');
+:root{
+    --background-color: #212529;
+    --secondary-background-color: #242a30;
+    --overlay-color: #4950577c;
+    --card-color: #6c757d;
+    --text-color: #f1faee;
+    --button-color: #e63946;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.portfolio-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.card{  
+    margin: 10px;
+    width: 300px;  
+    height: 250px;  
+    background: rgb(0, 87, 128);  
+    position: relative;  
+    cursor: pointer;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.123);  
+}  
+.card img{  
+    object-fit: cover; 
+    width: 100%;  
+    height: 100%;
+}  
+.content{  
+    position: absolute;  
+    width: 100%; 
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    height: 50px;  
+    font-size: 14px;  
+    background:#21252996;  
+    backdrop-filter: blur(10px);  
+    color: var(--text-color);  
+    border: 1px solid rgba(255, 255, 255, 0.164);  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.144);  
+    overflow: hidden;  
+    transition: all .4s;  
+    transform: scale(0.9);  
+}  
+
+.project-buttons button{
+    background-color: var(--button-color);
+    color: var(--text-color);
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px 0 7px 0;
+}
+.content p{  
+    padding:0 15px;
+}  
+.content h2{
+    text-align: center;
+    color: var(--text-color);
+}
+  .card:hover .content{  
+    height: 220px;  
+  }  
+  .project-buttons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;   
+    padding: 10px;
+  }

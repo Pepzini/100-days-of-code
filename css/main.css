@@ -4,7 +4,7 @@
     --secondary-background-color: #242a30;
     --overlay-color: #4950577c;
     --card-color: #6c757d;
-    --text-color: #f1faee;
+    --text-color: hsl(105, 55%, 96%);
     --button-color: #e63946;
 }
 body{
@@ -13,12 +13,21 @@ body{
     background-color: var(--background-color);
     color: var(--text-color);
 }
+
 section{
     padding: 2em;
-    transform: translateX(400%);
-    transition: transform 2.5s ease;
+    /* transform: translateX(400%);
+    transition: transform 2.5s ease; */
 }
-.animate-section:nth-of-type(even){
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: ver(--black-background);
+}
+/* animate section starts */
+/* .animate-section:nth-of-type(even){
     transform: translateX(-400%);
 }
 .animate-section.show{
@@ -38,7 +47,8 @@ section{
       transform: translateY(0);
       opacity: 1;
     }
-  }
+  } */
+/* animate section stops */
 
 #landing-page{
     padding: 0;
@@ -46,10 +56,11 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: url(./images/landing-image.jpg);
-    background-size: cover;
-    background-position: center; */
-    position: relative;
+    text-align: center;
+    background-image: url(../images/blob.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:right center; 
   }
   #landing-page h2{
     font-size: 45px;
@@ -114,7 +125,7 @@ section{
     cursor: pointer;
 }
 .portfolio-image{
-    height: 255px;
+    height: 240px;
     position: relative;
 }
 /*the .card-header img directly below removes the text over the image*/
@@ -204,6 +215,15 @@ footer{
     font-weight: bold;
     text-align: center;
 
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-row img{
+    width: 300px;
+    height: 100%;
 }
 @media screen and (max-width: 800px){
     .portfolio-column:nth-child(2){
