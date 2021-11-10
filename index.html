@@ -11,7 +11,32 @@
 </head>
 
 <body>
-
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">100DaysofCode</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="services">
+                    <a href="#">Services</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                        <li><a href="https://jideniniola.medium.com/">Blog</a></li>
+                        <li><a href="project.html">Mini-projects</a></li>
+                        <li><a href="snippets.html">Snippets</a></li>
+                    </ul>
+                </li>
+                <li><a href="/">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
     <section id="landing-page" class="animate-section">
         <div class="landing-text">
             <h2>Welcome to 100 days of code</h2>
@@ -29,7 +54,7 @@
                 voluptas veritatis, magni harum dolore animi vero quod rem quibusdam.</p>
         </div>
     </section> -->
-    <section id="portfolio" class="animate-section">
+    <section id="about" class="animate-section">
         <h2>About 100DaysofCode</h2>
         <p class="about-text">100DaysofCode is a challange popular among developers. The essence of this is to improve
             quality of

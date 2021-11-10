@@ -48,3 +48,11 @@ counters.forEach(counter => {
     updateCounter();
 });*/
 
+
+const nav = document.querySelector('.navbar')
+window.addEventListener('scroll', fixNav)
+
+function fixNav() {
+    window.scrollY > nav.offsetHeight + 150  
+}
+
