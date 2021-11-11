@@ -13,6 +13,18 @@ body{
     background-color: var(--background-color);
     color: var(--text-color);
 }
+#header{
+    padding:6rem 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--secondary-background-color);
+    height: 30vh;
+}
 a {
     text-decoration: none;
 }
@@ -21,6 +33,11 @@ li {
 }
 /* NAVBAR STYLING STARTS */
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,9 +49,25 @@ li {
 .nav-links a {
     color: #fff;
 }
+.navbar.active {
+    background-color: var(--secondary-background-color);
+    color: var(--button-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+.navbar.active a {
+    color: var(--text-color);
+}
+  
+.navbar.active .container {
+    padding: 10px 0;
+}
    /* LOGO */
 .logo {
     font-size: 32px;
+    color: white;
+}
+.logo a{
+    color: #fff;
 }
    /* NAVBAR MENU */
 .menu {
@@ -67,11 +100,11 @@ li {
 }
 .dropdown li {
     padding: 0.5em 1em;
-    width: 8em;
+    width: 6em;
     text-align: center;
 }
 .dropdown li:hover {
-    background-color: #4c9e9e;
+    background-color: var(--button-color);
 }
 .services:hover .dropdown {
     display: block;
@@ -87,13 +120,13 @@ input[type=checkbox]{
     font-size: 24px;
     user-select: none;
 }
+/* Style the project row */
 .portfolio-row{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 10px;
 }
-
 .card{  
     margin: 10px;
     width: 300px;  

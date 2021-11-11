@@ -1,5 +1,6 @@
 //navbar functionality
-/*const nav = document.querySelector('.navbar');
+const nav = document.querySelector('.navbar');
+
 window.addEventListener('scroll',activateStickyNav);
 
 function activateStickyNav(){
@@ -11,7 +12,7 @@ function activateStickyNav(){
 }
 
 //typewriter function
-var i = 0;
+/*var i = 0;
 var typeWritingText = 'Welcome to 100 days of HTML, CSS and Javascript.';
 var speed = 50;
 
@@ -46,13 +47,6 @@ counters.forEach(counter => {
     }
 
     updateCounter();
-});*/
+}); */
 
-
-const nav = document.querySelector('.navbar')
-window.addEventListener('scroll', fixNav)
-
-function fixNav() {
-    window.scrollY > nav.offsetHeight + 150  
-}
 

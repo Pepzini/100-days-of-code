@@ -27,6 +27,11 @@ li {
 }
 /* NAVBAR STYLING STARTS */
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,6 +42,18 @@ li {
 }
 .nav-links a {
     color: #fff;
+}
+.navbar.active {
+    background-color: var(--secondary-background-color);
+    color: var(--button-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+.navbar.active a {
+    color: var(--text-color);
+}
+  
+.navbar.active .container {
+    padding: 10px 0;
 }
    /* LOGO */
 .logo {
@@ -74,7 +91,7 @@ li {
 }
 .dropdown li {
     padding: 0.5em 1em;
-    width: 8em;
+    width: 6em;
     text-align: center;
 }
 .dropdown li:hover {
@@ -94,8 +111,6 @@ input[type=checkbox]{
     font-size: 24px;
     user-select: none;
 }
-
-
 #landing-page{
     padding: 0;
     min-height: 80vh;
