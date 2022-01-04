@@ -135,7 +135,14 @@ input[type=checkbox]{
     position: relative;  
     cursor: pointer;  
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.123);  
-}  
+} 
+.card a{
+    color: #fff;
+    text-decoration: none;
+}
+.card a:hover{
+    color: #fff;
+}
 .card img{  
     object-fit: cover; 
     width: 100%;  
