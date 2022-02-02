@@ -121,7 +121,7 @@ input[type=checkbox]{
     user-select: none;
 }
 /* Style the project row */
-.portfolio-row{
+#projectsCard{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
