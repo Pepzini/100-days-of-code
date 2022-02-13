@@ -4,49 +4,307 @@
       "name": "3D Box Magic",
       "imageUrl": "./project-images/3d-magic.png",
       "sourceCode": "https://jbjwhgvjwngsanhi",
-      "demoCode": "https://jbjwhgvjwngsanhi"
+      "demoLink": "https://admiring-montalcini-b86853.netlify.app/"
     },
     {
       "name": "Auto Text",
       "imageUrl": "./project-images/auto-text.png",
       "sourceCode": "https://jbjwhgvjwngsanhi",
-      "demoCode": "https://jbjwhgvjwngsanhi"
+      "demoLink": "https://angry-poincare-4e736a.netlify.app/"
     },
     {
       "name": "Background Strength",
       "imageUrl": "./project-images/background-strength.png",  
       "sourceCode": "https://jbjwhgvjwngsanhi",
-      "demoCode": "https://jbjwhgvjwngsanhi"
+      "demoLink": "https://loving-cori-6fc3fa.netlify.app/"
     },
     {
-      "name": "Background Strength",
-      "imageUrl": "./project-images/background-strength.png",  
+      "name": "Card Holder + Animation",
+      "imageUrl": "./project-images/card-image.png",  
       "sourceCode": "https://jbjwhgvjwngsanhi",
-      "demoCode": "https://jbjwhgvjwngsanhi"
+      "demoLink": "https://kind-fermat-0b5bbf.netlify.app/"
     },
     {
-      "name": "3D Box Magic",
-      "imageUrl": "./project-images/3d-magic.png",
+      "name": "Calculator",
+      "imageUrl": "./project-images/calculator.png",
       "sourceCode": "https://jbjwhgvjwngsanhi",
-      "demoCode": "https://jbjwhgvjwngsanhi"
+      "demoLink": "https://silly-hypatia-9740cc.netlify.app/"
     },
     {
-      "name": "Auto Text",
-      "imageUrl": "./project-images/auto-text.png",
+      "name": "Catch the Insect",
+      "imageUrl": "./project-images/catch-insect.png",
       "sourceCode": "https://jbjwhgvjwngsanhi",
-      "demoCode": "https://jbjwhgvjwngsanhi"
+      "demoLink": "https://tender-ride-4fc616.netlify.app/"
     },
     {
-      "name": "Background Strength",
-      "imageUrl": "./project-images/background-strength.png",  
+      "name": "Cheap, Fast and Good",
+      "imageUrl": "./project-images/cheap-fast-good.png",  
       "sourceCode": "https://jbjwhgvjwngsanhi",
-      "demoCode": "https://jbjwhgvjwngsanhi"
+      "demoLink": "https://tender-ride-4fc616.netlify.app/"
     },
     {
-      "name": "Background Strength",
-      "imageUrl": "./project-images/background-strength.png",  
+      "name": "Cool Navigation",
+      "imageUrl": "./project-images/cool-navigation.png",  
       "sourceCode": "https://jbjwhgvjwngsanhi",
-      "demoCode": "https://jbjwhgvjwngsanhi"
+      "demoLink": "https://vibrant-lamarr-557ee7.netlify.app/"
+    },
+    {
+      "name": "Web Counter",
+      "imageUrl": "./project-images/counter.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://serene-kilby-218e16.netlify.app/"
+    },
+    {
+      "name": "Countdown Timer",
+      "imageUrl": "./project-images/countdown.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://stupefied-albattani-faf068.netlify.app/"
+    },
+    {
+      "name": "Button Ripple Effect",
+      "imageUrl": "./project-images/custom-button.png",  
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://awesome-poincare-49aa49.netlify.app/"
+    },
+    {
+      "name": "Digital Clock",
+      "imageUrl": "./project-images/digital-clock.png",  
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://gallant-bartik-a483ad.netlify.app/"
+    },
+    {
+      "name": "Double Tap",
+      "imageUrl": "./project-images/double-tap.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://inspiring-swirles-0fe4b9.netlify.app/"
+    },
+    {
+      "name": "Drag and Drop",
+      "imageUrl": "./project-images/drag-and-drop.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://relaxed-pike-72de71.netlify.app/"
+    },
+    {
+      "name": "Event KeyCodes",
+      "imageUrl": "./project-images/event-keycodes.png",  
+      "sourceCode": "https://jbjwhgvj",
+      "demoLink": "https://unruffled-agnesi-2520bc.netlify.app/"
+    },
+     {
+       "name": "FAQ",
+        "imageUrl": "./project-images/faq.png",
+        "sourceCode": "https://jbjwhgvj",
+        "demoLink": "https://naughty-davinci-aeef37.netlify.app/"
+     },
+    {
+      "name": "Hover Board",
+      "imageUrl": "./project-images/hover-board.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://upbeat-hawking-b77b5a.netlify.app/ "
+    },
+    {
+      "name": "Github Profile",
+      "imageUrl": "./project-images/github-profile.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://brave-booth-1cd8df.netlify.app/"
+    },
+    {
+      "name": "Mobile Tab",
+      "imageUrl": "./project-images/mobile-tab.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://gifted-hopper-488e53.netlify.app/"
+    },
+    {
+      "name": "Multi Page Form",
+      "imageUrl": "./project-images/multi-form.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://brave-kirch-e4d32a.netlify.app/"
+    },
+    {
+      "name": "Note Taker",
+      "imageUrl": "./project-images/note-app.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://modest-mcclintock-46f0d6.netlify.app/"
+    },
+    {
+      "name": "Quiz App",
+      "imageUrl": "./project-images/quiz-app.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://hopeful-northcutt-c0c5b9.netlify.app/"
+    },
+    {
+      "name": "Password Generator",
+      "imageUrl": "./project-images/password-generator.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://epic-goldwasser-b9423f.netlify.app/"
+    },
+    {
+      "name": "Pokemon cards",
+      "imageUrl": "./project-images/pokemon-cards.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://focused-chandrasekhar-690edb.netlify.app/"
+    },
+    {
+      "name": "Random Feed",
+      "imageUrl": "./project-images/random-feed.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://random-images-feeder.netlify.app/"
+    },
+    {
+      "name": "Rotate Page",
+      "imageUrl": "./project-images/rotate-page.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://elated-kilby-741fba.netlify.app/"
+    },
+    {
+      "name": "Sound Board",
+      "imageUrl": "./project-images/sound-board.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://eager-payne-0e506b.netlify.app/"
+    },
+    {
+      "name": "Split Screen",
+      "imageUrl": "./project-images/split-screen.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://friendly-boyd-ab5963.netlify.app/"
+    },
+    {
+      "name": "Load Blur",
+      "imageUrl": "./project-images/load-blur-image.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink": "https://tender-spence-e6ef31.netlify.app/"
+    },
+    {
+    "name": "Weather App",
+    "imageUrl": "./project-images/weather-app.png",
+    "sourceCode": "https://jbjwhgvjwngsanhi",
+    "demoLink" :"https://awesome-curran-008f70.netlify.app/"
+    },
+    {
+    "name": "Text to Speech",
+    "imageUrl": "./project-images/text-to-speech.png",
+    "sourceCode": "https://jbjwhgvjwngsanhi",
+    "demoLink" :"https://priceless-edison-873009.netlify.app/"
+    },
+    {
+      "name": "Progress Steps",
+      "imageUrl": "./project-images/progress-steps.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://nostalgic-fermat-5ebb9b.netlify.app/"
+    },
+    {
+      "name": "Verify Code",
+      "imageUrl": "./project-images/verify-code.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://sad-wozniak-af543a.netlify.app/"
+    },
+    {
+      "name" : "Tag Selector",
+      "imageUrl": "./project-images/tag-selector.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://pensive-easley-4630b8.netlify.app/"
+    },
+    {
+      "name": "Recapctha",
+      "imageUrl": "./project-images/recaptcha.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://affectionate-jang-903d9e.netlify.app/"
+    },
+    {
+      "name": "Water Tracker",
+      "imageUrl": "./project-images/water-tracker.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://unruffled-jepsen-a2f2da.netlify.app/"
+    },
+    {
+       "name": "Vertical Slider",
+        "imageUrl": "./project-images/vertical-slider.png",
+        "sourceCode": "https://jbjwhgvjwngsanhi",
+        "demoLink" :"https://blissful-mahavira-639f59.netlify.app/"
+    },
+    {
+      "name" : "Toast Notification",
+      "imageUrl": "./project-images/toast-notification.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://brave-boyd-a5d68a.netlify.app/"
+    },
+    {
+      "name": "Scroll Anmaition",
+      "imageUrl": "./project-images/scroll-animation.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://loving-goldwasser-572260.netlify.app/"
+    },
+    {
+      "name": "Search Bar",
+      "imageUrl": "./project-images/search-bar.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://eager-dubinsky-54bf4d.netlify.app/"
+    },
+    {
+      "name": "Range Selector",
+      "imageUrl": "./project-images/range-selector.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://modest-darwin-0a3aba.netlify.app/"
+    },
+    {
+      "name": "Drawing Palette",
+      "imageUrl": "./project-images/drawing-palette.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://vibrant-bell-cb23a9.netlify.app/"
+    },
+    {
+      "name": "Random Jokes",
+      "imageUrl": "./project-images/random-jokes.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://vigorous-bartik-d504cf.netlify.app/"
+    },
+    {
+      "name": "Live User Filter",
+      "imageUrl": "./project-images/live-user-filter.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://sharp-swanson-6d3dbb.netlify.app/"
+    },
+    {
+      "name": "Movie Recommendation",
+      "imageUrl": "./project-images/movie-recommendation.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://stupefied-colden-7081f8.netlify.app/"
+    },
+    {
+      "name": "Feedback UI",
+      "imageUrl": "./project-images/feedback-response.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink" :"https://eloquent-kare-73d865.netlify.app/"
+    },
+    {
+      "name": "Expanding Cards",
+      "imageUrl": "./project-images/expanding-cards.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink":"https://angry-noyce-f0b8d7.netlify.app/"
+    },
+    {
+      "name": "ToDo List",
+      "imageUrl": "./project-images/todo-list.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink":"https://zen-shirley-81b17a.netlify.app/"
+    },
+    {
+      "name": "Kinetic Loader",
+      "imageUrl": "./project-images/kinetic-loader.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink":"https://jbjwhgvjwngsanhi"
+    },
+    {
+      "name": "Custom Slider",
+      "imageUrl": "./project-images/custom-slider.png",
+      "sourceCode": "https://jbjwhgvjwngsanhi",
+      "demoLink":"https://modest-darwin-0a3aba.netlify.app/"
+    },
+    {
+      "name": "Floating Label",
+      "imageUrl": "./project-images/login-from.png",
+      "sourceCode":"https://jbjwhgvjwngsanhi",
+      "demoLink":"https://goofy-poincare-096d8d.netlify.app/"
     }
   ]
 }

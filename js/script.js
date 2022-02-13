@@ -27,7 +27,7 @@ function showProjects(projects) {
   projectPage.innerHTML = '';
 
   projects.forEach(project => {
-    const { name, imageUrl, sourceCode, demoCode } = project;
+    const { name, imageUrl, sourceCode, demoLink } = project;
     const projectElement = document.createElement("div");
     projectElement.classList.add("projectsCard");
 
@@ -38,7 +38,7 @@ function showProjects(projects) {
       <h2>${name}</h2>
       <div class="project-buttons">
       <button> <a href="${sourceCode}">View Source Code</a> </button>
-      <button> <a href="${demoCode}">Demo</a> </button>
+      <button> <a href="${demoLink}" target="_blank">Demo</a> </button>
       </div>
     </div>`;
    projectPage.appendChild(projectElement);
@@ -46,22 +46,22 @@ function showProjects(projects) {
 }
 //snippet page function
 
-const imageContainer = document.getElementById('snippet-container');
-const imageURL = '/snippets/';
-const numberOfRows = 4;
+// const imageContainer = document.getElementById('snippet-container');
+// const imageURL = 'https://github.com/Pepzini/100-days-of-code/tree/main/snippets';
+// const numberOfRows = 4;
 
-for (let index = 0; index < numberOfRows * 5; index++) {
-    const image = document.createElement('img');
-    image.src = `${imageURL}${getRandomImageSize()}`;  
-    imageContainer.appendChild(image)
-}
+// for (let index = 0; index < numberOfRows * 5; index++) {
+//     const image = document.createElement('img');
+//     image.src = `${imageURL}`;  
+//     imageContainer.appendChild(image)
+// }
 
-function getRandomImageSize() {
-    return `${getRandomImageNumber()}*${getRandomImageNumber()}`
-}
-function getRandomImageNumber() {
-    return Math.floor(Math.random() * 10) + 300
-} 
+// function getRandomImageSize() {
+//     return `${getRandomImageNumber()}*${getRandomImageNumber()}`
+// }
+// function getRandomImageNumber() {
+//     return Math.floor(Math.random() * 10) + 300
+// } 
 //typewriter function
 /*var i = 0;
 var typeWritingText = 'Welcome to 100 days of HTML, CSS and Javascript.';

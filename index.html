@@ -1,193 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <title>100 days of code</title>
-  </head>
 
-  <body>
-    <nav class="navbar">
-      <!-- LOGO -->
-      <div class="logo">100DaysofCode</div>
-      <!-- NAVIGATION MENU -->
-      <ul class="nav-links">
-        <!-- USING CHECKBOX HACK -->
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-        <!-- NAVIGATION MENUS -->
-        <div class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li class="services">
-            <a href="#">Services</a>
-            <!-- DROPDOWN MENU -->
-            <ul class="dropdown">
-              <li><a href="https://jideniniola.medium.com/">Blog</a></li>
-              <li><a href="project.html">Mini-projects</a></li>
-              <li><a href="snippets.html">Snippets</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#">light Mode</a></li>
-        </div>
-      </ul>
-    </nav>
-    <section id="landing-page" class="animate-section">
-      <div class="landing-text">
-        <h2>Welcome to 100 days of code</h2>
-        <p>I have created demo projects on HTML, CSS and JavaScript.</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <title>100 days of code</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">100DaysofCode</div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="services">
+          <a href="#">Services</a>
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="https://jideniniola.medium.com/">Blog</a></li>
+            <li><a href="project.html">Mini-projects</a></li>
+            <li><a href="snippets.html">Snippets</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">light Mode</a></li>
       </div>
-    </section>
-    <!-- <section id="about">
-        <div class="about-image">
-            <img src="./images/code-blog.jpg" alt="">
+    </ul>
+  </nav>
+  <section id="landing-page" class="animate-section">
+    <div class="landing-text">
+      <h2>Welcome to 100 days of code</h2>
+      <p>I have created demo projects on HTML, CSS and JavaScript.</p>
+    </div>
+  </section>
+  <section id="about" class="animate-section">
+    <h2>About 100DaysofCode</h2>
+    <p class="about-text">
+      100DaysofCode is a challange popular among developers. The essence of
+      this is to improve quality of written code and create a portfolio. My
+      100DaysofCode challenge is divided into 3 aspects.
+    </p>
+    <div class="portfolio-row">
+      <div class="portfolio-column animate-column">
+        <div class="portfolio-image">
+          <img src="./images/code-blog.jpg" alt="" loading="lazy" />
         </div>
-        <div class="about-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sit officia amet facilis fuga non
-                nesciunt excepturi veniam quis expedita! Ad aliquid tempore nobis ea accusamus, alias magnam a nisi
-                voluptas veritatis, magni harum dolore animi vero quod rem quibusdam.</p>
-        </div>
-    </section> -->
-    <section id="about" class="animate-section">
-      <h2>About 100DaysofCode</h2>
-      <p class="about-text">
-        100DaysofCode is a challange popular among developers. The essence of
-        this is to improve quality of written code and create a portfolio. My
-        100DaysofCode challenge is divided into 3 aspects.
-      </p>
-      <div class="portfolio-row">
-        <div class="portfolio-column animate-column">
-          <div class="portfolio-image">
-            <img src="./images/code-blog.jpg" alt="" loading="lazy" />
-          </div>
-          <div class="portfolio-text">
-            <h3>Blog</h3>
-            <p>
-              This describes my journey in javascript and the things I was
-              learning at the moment.
-            </p>
-            <button>View All</button>
-          </div>
-        </div>
-        <div class="portfolio-column animate-column">
-          <div class="portfolio-text">
-            <h3>Mini Projects</h3>
-            <p>
-              The Mini-projects are projects focused on hands-on experience with
-              features that are seen on web application, a great example of this
-              is the reCaptcha.
-            </p>
-            <button>View All</button>
-          </div>
-          <div class="portfolio-image">
-            <img src="./images/code-project.jpg" alt="" loading="lazy" />
-          </div>
-        </div>
-        <div class="portfolio-column animate-column">
-          <div class="portfolio-image">
-            <img src="./images/code-snippet.jpg" alt="" />
-          </div>
-          <div class="portfolio-text">
-            <h3>Snippets</h3>
-            <p>
-              These are handly little codes that can be useful in demo and live
-              projects.
-            </p>
-            <button>View All</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="random-text" class="animate-section">
-      <div class="random">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quam.
-          Eius repellendus distinctio vero ea molestiae cum minus accusantium
-          voluptate.
-        </p>
-      </div>
-    </section>
-    <section id="projects" class="animate-section">
-      <div class="project-info">
-        <div class="project-column animate-column">
-          <div class="portfolio-image">
-            <img src="./images/code-blog.jpg" alt="" loading="lazy" />
-          </div>
-          <div class="portfolio-text">
-            <h3>Blog</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
-              consequatur.
-            </p>
-          </div>
-        </div>
-        <div class="project-column animate-column">
-          <div class="portfolio-image">
-            <img src="./images/code-blog.jpg" alt="" loading="lazy" />
-          </div>
-          <div class="portfolio-text">
-            <h3>Blog</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
-              consequatur.
-            </p>
-          </div>
-        </div>
-        <div class="project-column animate-column">
-          <div class="portfolio-image">
-            <img src="./images/code-blog.jpg" alt="" loading="lazy" />
-          </div>
-          <div class="portfolio-text">
-            <h3>Blog</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
-              consequatur.
-            </p>
-          </div>
-        </div>
-        <div class="project-column">
-          <div class="portfolio-text">
-            <h2>My Projects</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
-              consequatur.
-            </p>
-            <button><a href="project.html">View All</a></button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="animate-section">
-      <div class="contact">
-        <div>
-          <h3>Ways To Contact Me</h3>
+        <div class="portfolio-text">
+          <h3>Blog</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quam.
-            Eius repellendus distinctio vero ea molestiae cum minus accusantium
-            voluptate.
+            This describes my journey in javascript and the things I was
+            learning at the moment.
+          </p>
+          <button>View All</button>
+        </div>
+      </div>
+      <div class="portfolio-column animate-column">
+        <div class="portfolio-text">
+          <h3>Mini Projects</h3>
+          <p>
+            The Mini-projects are projects focused on hands-on experience with
+            features that are seen on web application, a great example of this
+            is the reCaptcha.
+          </p>
+          <button>View All</button>
+        </div>
+        <div class="portfolio-image">
+          <img src="./images/code-project.jpg" alt="" loading="lazy" />
+        </div>
+      </div>
+      <div class="portfolio-column animate-column">
+        <div class="portfolio-image">
+          <img src="./images/code-snippet.jpg" alt="" />
+        </div>
+        <div class="portfolio-text">
+          <h3>Snippets</h3>
+          <p>
+            These are handly little codes that can be useful in demo and live
+            projects.
+          </p>
+          <button>View All</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="random-text" class="animate-section">
+    <div class="random">
+      <blockquote>
+        “Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you
+        live”
+        <h3 style="color: #e63946; text-align: center;">John Woods</h3>
+      </blockquote>
+    </div>
+  </section>
+  <section id="projects" class="animate-section">
+    <div class="project-info">
+      <div class="project-column animate-column">
+        <div class="portfolio-image">
+          <img src="./project-images/sound-board.png" alt="" loading="lazy" />
+        </div>
+        <div class="portfolio-text">
+          <h3>Sound Board</h3>
+          <p>
+            Generate sounds on click
           </p>
         </div>
-
-        <div class="contact-details">
-          <p><i class="fa fa-phone"></i> 08109255374</p>
-          <p><i class="fa fa-instagram"></i> @devniniola</p>
-          <p><i class="fa fa-twitter"></i>jideniniola@gmail.com</p>
+      </div>
+      <div class="project-column animate-column">
+        <div class="portfolio-image">
+          <img src="./project-images/pokemon-cards.png" alt="" loading="lazy" />
         </div>
-        <div class="contact-details">
-          <p><i class="fa fa-linkedin"></i> 08109255374</p>
-          <p><i class="fa fa-envelope"></i>jideniniola@gmail.com</p>
+        <div class="portfolio-text">
+          <h3>Pokemon Cards</h3>
+          <p>
+            A list of popular pokemon cards
+          </p>
         </div>
       </div>
-    </section>
-    <footer>Niniola 2021.</footer>
-  </body>
-  <script src="./js/script.js"></script>
-  <script
-    src="https://kit.fontawesome.com/25f3e880e9.js"
-    crossorigin="anonymous"
-  ></script>
+      <div class="project-column animate-column">
+        <div class="portfolio-image">
+          <img src="./project-images/password-generator.png" alt="" loading="lazy" />
+        </div>
+        <div class="portfolio-text">
+          <h3>Password Generator</h3>
+          <p>
+           An app useful for generating passwords
+          </p>
+        </div>
+      </div>
+      <div class="project-column">
+        <div class="portfolio-text">
+          <h2>My Projects</h2>
+          <p>
+           Have a sneak peak into my projects. These mini-projects include digital clock, password generator and more.
+          </p>
+          <button><a href="project.html">View All</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="animate-section">
+    <div class="contact">
+      <div>
+        <h3>Ways To Contact Me</h3>
+        <p>
+         Reach out to me for hire, collaboration or clarity on the applicaton I have built.
+        </p>
+      </div>
+
+      <div class="contact-details">
+        <p><i class="fa fa-phone"></i> 08109255374</p>
+        <p><i class="fa fa-instagram"></i> @devniniola</p>
+        <p><i class="fa fa-twitter"></i>jideniniola@gmail.com</p>
+      </div>
+      <div class="contact-details">
+        <p><i class="fa fa-linkedin"></i> 08109255374</p>
+        <p><i class="fa fa-envelope"></i>jideniniola@gmail.com</p>
+      </div>
+    </div>
+  </section>
+  <footer>Niniola 2021.</footer>
+</body>
+<script src="./js/script.js"></script>
+<script src="https://kit.fontawesome.com/25f3e880e9.js" crossorigin="anonymous"></script>
+
 </html>

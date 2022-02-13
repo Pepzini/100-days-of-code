@@ -191,3 +191,12 @@ input[type=checkbox]{
     flex-direction: column;   
     padding: 10px;
   }
+  /* footer styling */
+footer {
+    background-color: var(--secondary-background-color);
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }

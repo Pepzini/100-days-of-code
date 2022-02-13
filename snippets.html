@@ -6,11 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/breadcrumbs.css">
     <link rel="stylesheet" href="css/responsive.css" />
     <title>Snippets</title>
 </head>
 
 <body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo"><a href="index.html"> 100DaysofCode </a></div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li class="services">
+              <a href="#">Projects</a>
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown">
+                <li><a href="https://jideniniola.medium.com/">Blog</a></li>
+                <li><a href="index.html">Mini-projects</a></li>
+                <li><a href="snippets.html">Snippets</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Dark Mode</a></li>
+          </div>
+        </ul>
+      </nav>
+      <section id="header">
+        <h2>Snippets</h2>
+        <div class="breadcrumbs">
+          <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li>Snippets</li>
+          </ul>
+        </div>
+      </section>
     <div id="snippet-container" class="snippet-container"></div>
 </body>
 <script src="./js/script.js"></script>
