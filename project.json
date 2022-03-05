@@ -306,5 +306,12 @@
       "sourceCode":"https://jbjwhgvjwngsanhi",
       "demoLink":"https://goofy-poincare-096d8d.netlify.app/"
     }
+  ],
+  "snippets": [
+    {
+      "imageURL": "./snippets/capitalizeAString.png",
+      "title": "Capitalize a string"
+    }
+    
   ]
 }

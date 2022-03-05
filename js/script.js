@@ -44,24 +44,7 @@ function showProjects(projects) {
    projectPage.appendChild(projectElement);
   });
 }
-//snippet page function
 
-// const imageContainer = document.getElementById('snippet-container');
-// const imageURL = 'https://github.com/Pepzini/100-days-of-code/tree/main/snippets';
-// const numberOfRows = 4;
-
-// for (let index = 0; index < numberOfRows * 5; index++) {
-//     const image = document.createElement('img');
-//     image.src = `${imageURL}`;  
-//     imageContainer.appendChild(image)
-// }
-
-// function getRandomImageSize() {
-//     return `${getRandomImageNumber()}*${getRandomImageNumber()}`
-// }
-// function getRandomImageNumber() {
-//     return Math.floor(Math.random() * 10) + 300
-// } 
 //typewriter function
 /*var i = 0;
 var typeWritingText = 'Welcome to 100 days of HTML, CSS and Javascript.';
