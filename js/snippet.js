@@ -1,80 +1,91 @@
-//snippet page function
+const userInfo = [
+  {name: 'Jon Doe', hobby: 'Skating', age: '25'},
+  {name: 'Jane Doe', hobby: 'Reading', age: '30'},
+  {name: 'John Doe', hobby: 'Coding', age: '35'},
+  {name: 'Jenny Doe', hobby: 'Skiing', age: '40'},
+];
 
-const imageContainer = document.getElementById("snippet-container");
-const imageURL = "./project.json";
-const numberOfRows = 4;
+console.table(userInfo);  //prints the array in a table format
 
-getSnippets(imageURL);
-
-async function getSnippets(url) {
-  const response = await fetch(url);
-  const data = await response.json();
-  console.log(data.snippets);
-  //await response.json is what returns the data
-  showSnippets(data.snippets);
+//swap two elements in the 
+const swap = (arr, index1, index2) => {
+  const temp = arr[index1];
+  arr[index1] = arr[index2];
+  arr[index2] = temp;
 }
-function showSnippets(snippets) {
-  const snippet = snippets;
-  let snippetHTML = "";
-  for (let i = 0; i < numberOfRows; i++) {
-    snippetHTML += `<div class="row">`;
-    for (let j = 0; j < numberOfRows; j++) {
-      const index = i * numberOfRows + j;
-      if (index < snippet.length) {
-        snippetHTML += `<div class="col-sm-3">
-        <div class="card">
-        <img src="${snippet[index].imageURL}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h3 class="card-title">${snippet[index].title}</h3>
-       
-        </div>
-      </div>
-      </div>`;
+
+//word occurence in a string
+//this counts the total number of occurences of a word in a string
+const countOccurence = (str, word) => {
+  const regex = new RegExp(word, 'gi');
+  return str.match(regex).length;
+}
+console.log(countOccurence('The quick brown fox jumps over the lazy dog', 'the'));
+
+//extract the first and last name from a string
+const extractName = (str) => {
+  const name = str.split(' ');
+  return {firstName: name[0], lastName: name[name.length - 1]};
+}
+console.log(extractName('Jon Doe'));
+
+//sum of all the numbers in an array
+const sum = (arr) => {
+  let total = 0;
+  for(let i = 0; i < arr.length; i++) {
+    total += arr[i];
+  }
+  return total;
+}
+console.log(sum([1, 2, 3, 4, 5]));
+
+//return the average of all the numbers in an array
+const average = (arr) => {
+  return sum(arr) / arr.length;
+}
+console.log(average([1, 2, 3, 4, 5]));
+
+//determine if a string is a palindrome
+const isPalindrome = (str) => {
+  const reversed = str.split('').reverse().join('');
+  return str === reversed;
+}
+console.log(isPalindrome('racecar'));
+
+//validate a credit card number
+const validateCreditCard = (num) => {
+  const digits = num.toString().split('');
+  let sum = 0;
+  for(let i = digits.length - 1; i >= 0; i--) {
+    let digit = parseInt(digits[i]);
+    if(i % 2 !== 0) {
+      digit *= 2;
+      if(digit > 9) {
+        digit -= 9;
       }
     }
-    snippetHTML += `</div>`;
+    sum += digit;
   }
-  imageContainer.innerHTML = snippetHTML;
+  return sum % 10 === 0;
 }
+console.log(validateCreditCard(79927398713));
 
-//could be used later
-// <p class="card-text">${snippet[index].description}</p>
-// <a href="${snippet[index].link}" class="btn btn-primary">Go somewhere</a>
+//convert a string to an array
+const stringToArray = (str) => {
+  return str.split('');
+}
+console.log(stringToArray('hello'));
 
-var gallery = document.querySelector("#gallery");
-var getVal = function (elem, style) {
-  return parseInt(window.getComputedStyle(elem).getPropertyValue(style));
-};
-var getHeight = function (item) {
-  return item.querySelector(".content").getBoundingClientRect().height;
-};
-var resizeAll = function () {
-  var altura = getVal(gallery, "grid-auto-rows");
-  var gap = getVal(gallery, "grid-row-gap");
-  gallery.querySelectorAll(".gallery-item").forEach(function (item) {
-    var el = item;
-    el.style.gridRowEnd =
-      "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
-  });
-};
-gallery.querySelectorAll("img").forEach(function (item) {
-  item.classList.add("byebye");
-  if (item.complete) {
-    console.log(item.src);
-  } else {
-    item.addEventListener("load", function () {
-      var altura = getVal(gallery, "grid-auto-rows");
-      var gap = getVal(gallery, "grid-row-gap");
-      var gitem = item.parentElement.parentElement;
-      gitem.style.gridRowEnd =
-        "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
-      item.classList.remove("byebye");
-    });
-  }
-});
-window.addEventListener("resize", resizeAll);
-gallery.querySelectorAll(".gallery-item").forEach(function (item) {
-  item.addEventListener("click", function () {
-    item.classList.toggle("full");
-  });
-});
+//eligible to vote
+//this determines if a person is eligible to vote based on their age
+const eligibleToVote = (age) => {
+  return age >= 18;
+}
+console.log(eligibleToVote(18));
+
+//validate a phone number
+const validatePhoneNumber = (num) => {
+  const digits = num.toString().split('');
+  return digits.length === 10 && digits[0] === '1';
+}
+console.log(validatePhoneNumber(1234567890));

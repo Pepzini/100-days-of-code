@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/breadcrumbs.css">
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/snippets.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <title>Snippets</title>
 </head>
 
@@ -18,117 +19,113 @@
         <div class="logo"><a href="index.html"> 100DaysofCode </a></div>
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
-          <!-- USING CHECKBOX HACK -->
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <!-- NAVIGATION MENUS -->
-          <div class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li class="services">
-              <a href="#">Projects</a>
-              <!-- DROPDOWN MENU -->
-              <ul class="dropdown">
-                <li><a href="https://jideniniola.medium.com/">Blog</a></li>
-                <li><a href="index.html">Mini-projects</a></li>
-                <li><a href="snippets.html">Snippets</a></li>
-              </ul>
-            </li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#">Dark Mode</a></li>
-          </div>
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li class="services">
+                    <a href="#">Projects</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                        <li><a href="https://jideniniola.medium.com/">Blog</a></li>
+                        <li><a href="index.html">Mini-projects</a></li>
+                        <li><a href="snippets.html">Snippets</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Dark Mode</a></li>
+            </div>
         </ul>
-      </nav>
-      <section id="header">
+    </nav>
+    <section id="header">
         <h2>Snippets</h2>
         <div class="breadcrumbs">
-          <ul class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#services">Projects</a></li>
-            <li>Snippets</li>
-          </ul>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li>Snippets</li>
+            </ul>
         </div>
-      </section>
-    <!-- <div id="snippet-container" class="snippet-container"></div> -->
-    <div class="gallery" id="gallery">
-      <div class="gallery-item">
-          <div class="content"><img src="./snippets/capitalizeAString.png" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="./snippets/findLongestWordLength.png" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="./snippets/oddOrEven.png" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="./snippets/randomNumbers.png" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="./snippets/removeDuplicates.png" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="./snippets/reverseAString.png" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="./snippets/splitAString.png" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,eight" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,crew" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,event" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,instrument" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,practical" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,pass" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,bigger" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,number" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,feature" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,line" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,railroad" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,pride" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,too" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,bottle" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,base" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,cell" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,bag" alt=""></div>
-      </div>
-      <div class="gallery-item">
-          <div class="content"><img src="https://source.unsplash.com/random/?tech,card" alt=""></div>
-      </div>
-  </div>
+    </section>
+
+<section class="gallery">
+    <div class="gallery-images">
+        <a href="snippets/capitalizeAString.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/capitalizeAString.png" class="thumbnail">
+        </a>
+        <a href="snippets/findLongestWordLength.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/findLongestWordLength.png" class="thumbnail">
+        </a>
+        <a href="snippets/oddOrEven.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/oddOrEven.png" class="thumbnail">
+        </a>
+        <a href="snippets/randomNumbers.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/randomNumbers.png" class="thumbnail">
+        </a>
+    </div>
+    <div class="gallery-images">
+        <a href="snippets/removeDuplicates.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/removeDuplicates.png" class="thumbnail">
+        </a>
+        <a href="snippets/repeatString.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/repeatString.png" class="thumbnail">
+        </a>
+        <a href="snippets/reverseAString.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/reverseAString.png" class="thumbnail">
+        </a>
+        <a href="snippets/splitAString.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/splitAString.png" class="thumbnail">
+        </a>
+    </div>
+    <div class="gallery-images">
+        <a href="snippets/extractFirstAndLast.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/extractFirstAndLast.png" class="thumbnail">
+        </a>
+        <a href="snippets/stringToArray.png class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/stringToArray.png" class="thumbnail">
+        </a>
+        <a href="snippets/sumAllNumbers.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/sumAllNumbers.png" class="thumbnail">
+        </a>
+        <a href="snippets/truncateAString.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/truncateAString.png" class="thumbnail">
+        </a>
+    </div>
+    <div class="gallery-images">
+        <a href="snippets/differenceBtwArrays.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/differenceBtwArrays.png" class="thumbnail">
+        </a>
+        <a href="snippets/findLastLetter.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/findLastLetter.png" class="thumbnail">
+        </a>
+        <a href="snippets/wordOccurrence.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/wordOccurrence.png" class="thumbnail">
+        </a>
+        <a href="snippets/palindromeChecker.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/wordOccurrence.png" class="thumbnail">
+        </a>
+    </div>
+    <div class="gallery-images">
+        <a href="snippets/averageofNumbers.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/averageofNumbers.png" class="thumbnail">
+        </a>
+        <a href="snippets/sumOfNumbers.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/sumOfNumbers.png" class="thumbnail">
+        </a>
+        <a href="snippets/vote.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/vote.png" class="thumbnail">
+        </a>
+        <a href="snippets/validateAPhoneNumber.png" class="full-image" data-lightbox="my-gallery">
+            <img src="snippets/validateAPhoneNumber.png" class="thumbnail">
+        </a>
+    </div>
+</section>                              
 </body>
-<script src="./js/snippet.js"></script>
+ <script src="./js/snippet.js"></script>
+ <script src="./js/lightbox-plus-jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/25f3e880e9.js" crossorigin="anonymous"></script>
 
 </html>

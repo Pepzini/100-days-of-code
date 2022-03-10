@@ -7,6 +7,14 @@
   --text-color: hsl(105, 55%, 96%);
   --button-color: #e63946;
 }
+[data-theme="dark"]{
+  --background-color: #ffffff;
+  --secondary-background-color: #f5f3f4;
+  --overlay-color: #d3d3d3;
+  --card-color: #b1a7a6;
+  --text-color: #161a1d;
+  --button-color: #e63946;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -21,6 +29,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #ffffff;
 }
 li {
   list-style: none;
@@ -73,6 +82,7 @@ li {
 }
 .menu li {
   padding: 5px 14px;
+  font-weight: bold;
 }
 /* DROPDOWN MENU */
 .services {
