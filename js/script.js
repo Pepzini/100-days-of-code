@@ -14,7 +14,7 @@ function activateStickyNav() {
 const projectPage = document.getElementById("projectsCard");
 const api_URL = "./project.json";
 //creating a request to fetch the api
-getProjects(api_URL);mm
+getProjects(api_URL);
 
 async function getProjects(url) {
   const response = await fetch(url);
