@@ -123,7 +123,6 @@ input[type="checkbox"] {
 }
 /* landing section styling */
 #landing-page {
-  padding: 0;
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -138,6 +137,7 @@ input[type="checkbox"] {
   font-size: 45px;
   margin: 0;
 }
+
 #landing-page .landing-text {
   z-index: 10;
   color: #fff;
@@ -240,6 +240,8 @@ input[type="checkbox"] {
   justify-content: center;
   background-color: var(--background-color);
   color: var(--text-color);
+  text-align: center;
+  font-size: 17px;
 }
 .random p {
   text-align: center;
